@@ -3,9 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Home" Height="600" Width="900" Background="White">
     <Grid>
+        <!-- Barra de navegación -->
         <DockPanel Background="#FFEB6EC3" Height="60" VerticalAlignment="Top">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
-                <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
+                <Button Background="Transparent" BorderBrush="Transparent" Click="HomeButton_Click">
+                    <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
+                </Button>
                 <Button Content="Home" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
                     Foreground="White" BorderBrush="Transparent" Margin="5"/>
                 <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 

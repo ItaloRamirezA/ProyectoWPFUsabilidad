@@ -28,6 +28,8 @@ namespace ProyectoWPF
         }
         private void SalirButton_Click(object sender, RoutedEventArgs e)
         {
+            Home ventanaHome = new Home();
+            ventanaHome.Show();
             this.Close();
         }
 
@@ -40,8 +42,12 @@ namespace ProyectoWPF
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
+            Home ventanaHome = new Home();
+            ventanaHome.Show();
             this.Close();
         }
+
+
     }
 }
 

@@ -22,6 +22,7 @@ namespace ProyectoWPF
                 if (producto != null)
                 {
                     InformacionProducto ventana = new InformacionProducto(producto);
+                    this.Close();
                     ventana.Show();
                 }
                 else
@@ -75,5 +76,11 @@ namespace ProyectoWPF
             MessageBox.Show("Checkout");
         }
 
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
+        {
+            Home ventanaHome = new Home();
+            ventanaHome.Show();
+            this.Close();
+        }
     }
 }

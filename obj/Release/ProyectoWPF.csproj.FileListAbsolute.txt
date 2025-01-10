@@ -16,3 +16,5 @@ C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.csproj.Gen
 C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.csproj.CoreCompileInputs.cache
 C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.exe
 C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.pdb
+C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\Register.baml
+C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\Register.g.cs

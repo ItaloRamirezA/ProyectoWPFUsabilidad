@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpfusabilidad\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpfusabilidad\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\register.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:register.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpfusabilidad\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|c:\\users\\alumma\\desktop\\proyectowpfusabilidad\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:login.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881C8EC-9FCB-4F5F-BEFF-ED30F9DAB3CA}|ProyectoWPF.csproj|C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\informacionproducto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Register.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Register.xaml",
               "RelativeDocumentMoniker": "Register.xaml",
@@ -82,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
@@ -105,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "InformacionProducto.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\InformacionProducto.xaml",
               "RelativeDocumentMoniker": "InformacionProducto.xaml",
@@ -118,48 +110,24 @@
         },
         {
           "DockedWidth": 106,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-10T09:30:55.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-01-10T09:30:51.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Register.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Register.xaml",
               "RelativeDocumentMoniker": "Register.xaml",
               "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Register.xaml",
               "RelativeToolTip": "Register.xaml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-10T09:25:51.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Register.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Register.xaml.cs",
               "RelativeDocumentMoniker": "Register.xaml.cs",
@@ -167,12 +135,11 @@
               "RelativeToolTip": "Register.xaml.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAIwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T09:26:01.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T09:26:01.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Login.xaml",
               "RelativeDocumentMoniker": "Login.xaml",
@@ -180,25 +147,24 @@
               "RelativeToolTip": "Login.xaml",
               "ViewState": "AgIAACsAAAAAAAAAAAAiwEIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-23T11:58:37.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T11:58:37.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Login.xaml.cs",
               "ToolTip": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Login.xaml.cs",
               "RelativeToolTip": "Login.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T21:34:37.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Home.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Home.xaml",
               "RelativeDocumentMoniker": "Home.xaml",
@@ -210,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Home.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\Home.xaml.cs",
               "RelativeDocumentMoniker": "Home.xaml.cs",
@@ -222,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "InformacionProducto.xaml",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\InformacionProducto.xaml",
               "RelativeDocumentMoniker": "InformacionProducto.xaml",
@@ -234,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "InformacionProducto.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alumMA\\Desktop\\ProyectoWPFUsabilidad\\InformacionProducto.xaml.cs",
               "RelativeDocumentMoniker": "InformacionProducto.xaml.cs",

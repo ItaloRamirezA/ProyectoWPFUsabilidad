@@ -65,7 +65,6 @@
                     </Button.Template>
                 </Button>
 
-                <!-- Aquí está el texto "Ya tengo cuenta", que es un TextBlock clickeable -->
                 <TextBlock Foreground="White" FontFamily="Arial Rounded MT Bold" HorizontalAlignment="Center" Margin="20,15,0,0" Cursor="Hand" MouseLeftButtonDown="YaTengoCuenta_Click">
                     <Run Text="Already have an account      "/>
                 </TextBlock>

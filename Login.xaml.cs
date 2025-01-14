@@ -57,12 +57,11 @@ namespace ProyectoWPF
             }
         }
 
-        // Evento para redirigir a la ventana de registro
         private void IDontHaveAccount_Click(object sender, RoutedEventArgs e)
         {
             Register ventanaRegister = new Register();
             ventanaRegister.Show();
-            this.Close();  // Cierra la ventana de login
+            this.Close();
         }
     }
 }

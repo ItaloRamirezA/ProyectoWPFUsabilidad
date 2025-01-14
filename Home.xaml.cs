@@ -82,5 +82,14 @@ namespace ProyectoWPF
             ventanaHome.Show();
             this.Close();
         }
+
+        private void AbrirVentanaError(object sender, RoutedEventArgs e)
+        {
+            Error ventanaError = new Error();
+            ventanaError.Show();
+            this.Close();
+        }
+
+
     }
 }

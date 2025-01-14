@@ -1,9 +1,8 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
 
 namespace ProyectoWPF
 {
-    public partial class Error : Page
+    public partial class Error : Window
     {
         public Error()
         {
@@ -12,14 +11,9 @@ namespace ProyectoWPF
 
         private void VolverButton_Click(object sender, RoutedEventArgs e)
         {
-            if (NavigationService.CanGoBack)
-            {
-                NavigationService.GoBack();
-            }
-            else
-            {
-                MessageBox.Show("No se puede regresar a la página anterior.");
-            }
+            Home home = new Home();
+            home.Show();
+            this.Close();
         }
     }
 }

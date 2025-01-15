@@ -76,7 +76,7 @@ namespace ProyectoWPF
             MessageBox.Show("Checkout");
         }
 
-        private void HomeButton_Click(object sender, RoutedEventArgs e)
+        private void AbrirVentanaHome(object sender, RoutedEventArgs e)
         {
             Home ventanaHome = new Home();
             ventanaHome.Show();
@@ -87,6 +87,13 @@ namespace ProyectoWPF
         {
             Error ventanaError = new Error();
             ventanaError.Show();
+            this.Close();
+        }
+
+        private void AbrirVentanaNews(object sender, RoutedEventArgs e)
+        {
+            News ventantaNews = new News();
+            ventantaNews.Show();
             this.Close();
         }
 

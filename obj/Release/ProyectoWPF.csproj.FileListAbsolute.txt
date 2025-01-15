@@ -44,3 +44,5 @@ C:\Users\italo\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.csproj.Gene
 C:\Users\italo\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.csproj.CoreCompileInputs.cache
 C:\Users\italo\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.exe
 C:\Users\italo\Desktop\ProyectoWPFUsabilidad\obj\Release\ProyectoWPF.pdb
+C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\News.g.cs
+C:\Users\alumMA\Desktop\ProyectoWPFUsabilidad\obj\Release\News.baml

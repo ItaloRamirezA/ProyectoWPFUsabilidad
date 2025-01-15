@@ -6,16 +6,17 @@
         <!-- Barra de navegación -->
         <DockPanel Background="#FFEB6EC3" Height="60" VerticalAlignment="Top">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
-                <Button Background="Transparent" BorderBrush="Transparent" Click="HomeButton_Click">
+                <Button Background="Transparent" BorderBrush="Transparent" Cursor="Hand">
                     <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
                 </Button>
-                <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError"/>
+                <Button Content="Home" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Cursor="Hand"/>
                 <Button Content="News" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError"/>
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaNews" Cursor="Hand"/>
+                <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
                 <Button Content="Cart" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError"/>
-
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
             </StackPanel>
 
             <Button Content="Cerrar Sesión" 
@@ -28,7 +29,8 @@
                     HorizontalAlignment="Right" 
                     Width="120" 
                     Height="40" 
-                    Click="CerrarSesion_Click">
+                    Click="CerrarSesion_Click"
+                    Cursor="Hand">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>
@@ -49,7 +51,7 @@
                 <TextBlock Text="Productos" FontSize="40" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"/>
 
                 <!-- Producto 1 -->
-                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="4">
+                <Button Cursor="Hand" Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="4">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
@@ -75,7 +77,7 @@
                 </Grid>
 
                 <!-- Producto 2 -->
-                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="3">
+                <Button Cursor="Hand" Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="3">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
@@ -101,7 +103,7 @@
                 </Grid>
 
                 <!-- Producto 3 -->
-                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="1">
+                <Button Cursor="Hand" Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="1">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
@@ -127,7 +129,7 @@
                 </Grid>
 
                 <!-- Producto 4 -->
-                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="2">
+                <Button Cursor="Hand" Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="2">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
@@ -153,7 +155,7 @@
                 </Grid>
 
                 <!-- Producto 5 -->
-                <Button Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="5">
+                <Button Cursor="Hand" Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="5">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>

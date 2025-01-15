@@ -58,6 +58,9 @@
     <Compile Include="Error.xaml.cs">
       <DependentUpon>Error.xaml</DependentUpon>
     </Compile>
+    <Compile Include="News.xaml.cs">
+      <DependentUpon>News.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="News.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,6 +147,13 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imagenes\Error\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\News\noticia2.png" />
+    <Resource Include="Imagenes\News\noticia3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\News\noticia1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

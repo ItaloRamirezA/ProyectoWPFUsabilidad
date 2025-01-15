@@ -37,8 +37,8 @@
                 </TextBlock>
 
                 <!-- Botón Volver -->
-                <Button Content="Back" Width="100" Height="40" Click="VolverButton_Click" Background="HotPink" Foreground="White" 
-                        BorderBrush="Transparent" Margin="0, 20, 0, 0">
+                <Button Content="Go to home" Width="100" Height="40" Click="VolverButton_Click" Background="HotPink" Foreground="White" 
+                        BorderBrush="Transparent" Margin="0, 20, 0, 0" Cursor="Hand">
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"

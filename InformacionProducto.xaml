@@ -15,19 +15,19 @@
 
         <DockPanel Background="#FFEB6EC3" Height="60" VerticalAlignment="Top" Grid.Row="0">
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
-                <Button Background="Transparent" BorderBrush="Transparent" Click="HomeButton_Click">
+                <Button Background="Transparent" BorderBrush="Transparent" Click="AbrirVentanaHome">
                     <Image Source="Imagenes/Comun/logoPequeno.png" Width="50" Height="40" Margin="10"/>
                 </Button>
                 <Button Content="Home" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="HomeButton_Click"/>
-                <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError"/>
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaHome" Cursor="Hand"/>
                 <Button Content="News" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError"/>
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaNews" Cursor="Hand"/>
+                <Button Content="Characters" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
                 <Button Content="Cart" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
-                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError"/>
+                    Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
             </StackPanel>
-            <Button Content="Cerrar Sesión" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent"
+            <Button Cursor="Hand" Content="Cerrar Sesión" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent"
                     Foreground="White" BorderBrush="Transparent" Margin="5" HorizontalAlignment="Right" Click="CerrarSesion_Click"/>
         </DockPanel>
 
@@ -39,6 +39,6 @@
 
         <Button Content="Salir" Grid.Row="6" Width="100" Height="30" 
                 HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" 
-                Click="SalirButton_Click"/>
+                Click="SalirButton_Click" Cursor="Hand"/>
     </Grid>
 </Window>

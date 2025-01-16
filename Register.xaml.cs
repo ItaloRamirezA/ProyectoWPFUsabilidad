@@ -12,9 +12,9 @@ namespace ProyectoWPF
             InitializeComponent();
         }
 
-        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        private void ContrasenaCambio(object sender, RoutedEventArgs e)
         {
-            string password = PasswordBox.Password;
+            string password = ContrasenaBox.Password;
 
             // Check for at least one uppercase letter
             if (Regex.IsMatch(password, @"[A-Z]"))

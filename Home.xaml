@@ -19,18 +19,9 @@
                     Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
             </StackPanel>
 
-            <Button Content="Cerrar Sesión" 
-                    FontSize="16" 
-                    FontFamily="Arial Rounded MT Bold" 
-                    Background="Transparent" 
-                    Foreground="White" 
-                    BorderBrush="Transparent" 
-                    Margin="5" 
-                    HorizontalAlignment="Right" 
-                    Width="120" 
-                    Height="40" 
-                    Click="CerrarSesion_Click"
-                    Cursor="Hand">
+            <Button Content="Cerrar Sesión" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                    Foreground="White" BorderBrush="Transparent" Margin="5" HorizontalAlignment="Right"
+                    Width="120" Height="40" Click="CerrarSesion_Click" Cursor="Hand">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>

@@ -27,8 +27,9 @@
                 <Button Content="Cart" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
                     Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
             </StackPanel>
-            <Button Cursor="Hand" Content="Cerrar Sesión" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent"
-                    Foreground="White" BorderBrush="Transparent" Margin="5" HorizontalAlignment="Right" Click="CerrarSesion_Click"/>
+            <Button Content="Cerrar Sesión" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
+                Foreground="White" BorderBrush="Transparent" Margin="5" HorizontalAlignment="Right"
+                Width="120" Height="40" Click="CerrarSesion_Click" Cursor="Hand"/>
         </DockPanel>
 
         <Image x:Name="ImagenProducto" Grid.Row="1" Height="200" HorizontalAlignment="Center"/>
@@ -40,5 +41,7 @@
         <Button Content="Salir" Grid.Row="6" Width="100" Height="30" 
                 HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" 
                 Click="SalirButton_Click" Cursor="Hand"/>
+        <Border Background="Black" Height="1" Margin="100,199,100,0" Grid.Row="1"/>
+        <Border Background="Black" Height="1" Margin="100,0,100,49" Grid.Row="6"/>
     </Grid>
 </Window>

@@ -8,35 +8,25 @@
         Title="Error" Height="600" Width="900" ResizeMode="NoResize">
 
     <Grid Background="White">
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
-            <Grid>
-                <TextBlock Text="!" FontSize="72" FontWeight="Bold" Foreground="White"
-                           VerticalAlignment="Center" HorizontalAlignment="Center" />
-            </Grid>
-        </StackPanel>
-
         <Grid Margin="20" VerticalAlignment="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Image Source="Imagenes/Error/error.png" Width="200" Height="200" Grid.Column="0" Margin="0,0,20,0" />
+            <Image Source="Imagenes/Error/error.png" Grid.Column="0" Margin="0,-143,430,0" Grid.ColumnSpan="2" />
 
-            <StackPanel Grid.Column="1" HorizontalAlignment="Left">
-                <!-- Título centrado -->
+            <StackPanel Grid.Column="1" HorizontalAlignment="Left" Margin="409,44,0,45">
                 <TextBlock HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" Foreground="HotPink"
                            Margin="0,0,0,10">ERROR 404</TextBlock>
 
-                <!-- Descripción -->
                 <TextBlock FontSize="16" TextAlignment="Left" Foreground="Gray">
                     An error has occurred, we apologize for the inconvenience.
                 </TextBlock>
-                <TextBlock FontSize="16" TextAlignment="Left" Foreground="Gray" HorizontalAlignment="Center">
+                <TextBlock FontSize="16" TextAlignment="Left" Foreground="Black" HorizontalAlignment="Center">
                     Page not Found
                 </TextBlock>
 
-                <!-- Botón Volver -->
                 <Button Content="Go to home" Width="100" Height="40" Click="VolverButton_Click" Background="HotPink" Foreground="White" 
                         BorderBrush="Transparent" Margin="0, 20, 0, 0" Cursor="Hand">
                     <Button.Template>

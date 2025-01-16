@@ -39,7 +39,7 @@
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10,70,10,70">
             <StackPanel>
-                <TextBlock Text="Productos" FontSize="40" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"/>
+                <TextBlock FontSize="40" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="#333" Margin="10,10,0,10"><Run Text="Product"/><Run Language="es-es" Text="s"/></TextBlock>
 
                 <!-- Producto 1 -->
                 <Button Cursor="Hand" Click="ProductoButton_Click" Margin="10" Background="Transparent" BorderBrush="Transparent" Tag="4">
@@ -51,7 +51,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Source="Imagenes/Home/myMelodyPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
-                            <TextBlock Text="My Melody Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
+                            <TextBlock FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"><Run Text="My Melody "/><Run Language="es-es" Text="Teddy"/><Run Text=" Classic Series"/></TextBlock>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="$25.99" FontSize="16" FontFamily="Arial Rounded MT Bold" Foreground="Green" 
                                    VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
@@ -77,7 +77,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Source="Imagenes/Home/kuromiPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
-                            <TextBlock Text="Kuromi Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
+                            <TextBlock FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"><Run Text="Kuromi "/><Span Background="White" Foreground="Black" FontFamily="Cascadia Mono" FontSize="12.666666666666666"/><Run Text=" Classic Series"/></TextBlock>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="$27.99" FontSize="16" FontFamily="Arial Rounded MT Bold" Foreground="Green" 
                                    VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
@@ -103,7 +103,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Source="Imagenes/Home/cinamorollPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
-                            <TextBlock Text="Cinamoroll Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
+                            <TextBlock FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"><Run Text="Cinamoroll "/><Span Background="White" Foreground="Black" FontFamily="Cascadia Mono" FontSize="12.666666666666666"/><Run Text=" Classic Series"/></TextBlock>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="$29.99" FontSize="16" FontFamily="Arial Rounded MT Bold" Foreground="Green" 
                                    VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
@@ -129,7 +129,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Source="Imagenes/Home/kittyPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
-                            <TextBlock Text="Hello Kitty Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
+                            <TextBlock Text="Hello Kitty Teddy Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="$32.99" FontSize="16" FontFamily="Arial Rounded MT Bold" Foreground="Green" 
                                    VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
@@ -155,7 +155,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Source="Imagenes/Home/pompomPeluche.jpg" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                         <StackPanel Grid.Column="1" Margin="10,0" VerticalAlignment="Center" HorizontalAlignment="Left">
-                            <TextBlock Text="PomPomPurin Peluche Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
+                            <TextBlock Text="PomPomPurin Teddy Classic Series" FontSize="16" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" Foreground="Black" TextAlignment="Left"/>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="$26.99" FontSize="16" FontFamily="Arial Rounded MT Bold" Foreground="Green" 
                                    VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>

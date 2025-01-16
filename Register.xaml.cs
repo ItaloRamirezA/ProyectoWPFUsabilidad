@@ -1,6 +1,7 @@
-﻿using System;
-using System.Data.SqlClient;
+﻿using System.Text.RegularExpressions;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace ProyectoWPF
 {
@@ -11,73 +12,45 @@ namespace ProyectoWPF
             InitializeComponent();
         }
 
-        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            string usuario = UsuarioTextBox.Text.Trim();
-            string contrasena = PasswordBox.Password.Trim();
-            string confirmContrasena = ConfirmPasswordBox.Password.Trim();
+            string password = PasswordBox.Password;
 
-            if (usuario == "" || contrasena == "" || confirmContrasena == "")
+            // Check for at least one uppercase letter
+            if (Regex.IsMatch(password, @"[A-Z]"))
             {
-                MessageBox.Show("Por favor, completa todos los campos.");
-                return;
+                mayusCheck.Foreground = new SolidColorBrush(Colors.Green);
+            }
+            else
+            {
+                mayusCheck.Foreground = new SolidColorBrush(Colors.Gray);
             }
 
-            if (contrasena != confirmContrasena)
+            // Check for at least one number
+            if (Regex.IsMatch(password, @"\d"))
             {
-                MessageBox.Show("Las contraseñas no coinciden.");
-                return;
+                numeroCheck.Foreground = new SolidColorBrush(Colors.Green);
             }
-
-            string cadenaConexion = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=ProyectoWPF;Integrated Security=True;";
-            SqlConnection conexion = new SqlConnection(cadenaConexion);
-
-            try
+            else
             {
-                conexion.Open();
-
-                string consultaUsuario = "SELECT COUNT(*) FROM Login WHERE Usuario = @Usuario";
-                SqlCommand comandoUsuario = new SqlCommand(consultaUsuario, conexion);
-                comandoUsuario.Parameters.AddWithValue("@Usuario", usuario);
-                int usuarioExistente = Convert.ToInt32(comandoUsuario.ExecuteScalar());
-
-                if (usuarioExistente > 0)
-                {
-                    MessageBox.Show("Este usuario ya está registrado.");
-                }
-                else
-                {
-                    string consulta = "INSERT INTO Login (Usuario, Contrasena) VALUES (@Usuario, @Contrasena)";
-                    SqlCommand comando = new SqlCommand(consulta, conexion);
-                    comando.Parameters.AddWithValue("@Usuario", usuario);
-                    comando.Parameters.AddWithValue("@Contrasena", contrasena);
-
-                    int resultado = comando.ExecuteNonQuery();
-
-                    if (resultado == 1)
-                    {
-                        MessageBox.Show("Registro exitoso.");
-                        Home ventanaHome = new Home();
-                        ventanaHome.Show();
-                        this.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Hubo un error en el registro. Intenta nuevamente.");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("No se pudo conectar con la base de datos. Error: " + ex.Message);
-            }
-            finally
-            {
-                conexion.Close();
+                numeroCheck.Foreground = new SolidColorBrush(Colors.Gray);
             }
         }
 
-        private void YaTengoCuenta_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (mayusCheck.Foreground.ToString() == new SolidColorBrush(Colors.Green).ToString() &&
+                numeroCheck.Foreground.ToString() == new SolidColorBrush(Colors.Green).ToString())
+            {
+                MessageBox.Show("¡La contraseña cumple con los criterios!");
+            }
+            else
+            {
+                MessageBox.Show("La contraseña debe cumplir con los criterios.");
+            }
+        }
+
+        private void YaTengoCuenta_Click(object sender, RoutedEventArgs e)
         {
             Login ventanaLogin = new Login();
             ventanaLogin.Show();

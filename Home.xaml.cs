@@ -2,14 +2,43 @@
 using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
+using System.Threading;
+using System.Windows.Media;
 
 namespace ProyectoWPF
 {
     public partial class Home : Window
     {
+        private int segundosRestantes;
+        private Timer temporizador;
+
         public Home()
         {
             InitializeComponent();
+
+            segundosRestantes = 43200;
+            temporizador = new Timer(ActualizarTemporizador, null, 0, 1000);
+        }
+
+        private void ActualizarTemporizador(object state)
+        {
+            if (segundosRestantes > 0)
+            {
+                segundosRestantes--;
+                TimeSpan tiempo = TimeSpan.FromSeconds(segundosRestantes);
+                Dispatcher.Invoke(() => {
+                    TemporizadorText.Text = tiempo.ToString(@"hh\:mm\:ss");
+                });
+            }
+            else
+            {
+                Dispatcher.Invoke(() => {
+                    TemporizadorText.Text = "Offers expired!";
+                    TemporizadorText.Foreground = new SolidColorBrush(Colors.Gray);
+                });
+                temporizador.Dispose();
+            }
         }
 
         private void ProductoButton_Click(object sender, RoutedEventArgs e)

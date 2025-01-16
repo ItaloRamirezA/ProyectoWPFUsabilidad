@@ -155,5 +155,12 @@
   <ItemGroup>
     <Resource Include="Imagenes\News\noticia1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Home\offer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\InfoProducto\paypal.png" />
+    <Resource Include="Imagenes\InfoProducto\visa.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

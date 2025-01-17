@@ -42,7 +42,7 @@
             </Button>
         </DockPanel>
 
-        <!-- Contenido de Noticias -->
+        <!-- Noticias -->
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10,70,10,10">
             <StackPanel>
                 <!-- Noticia 1 -->

@@ -16,19 +16,22 @@
                            FontFamily="Arial Rounded MT Bold"
                            Foreground="White" HorizontalAlignment="Center"
                            Margin="0,10"/>
-
+                
+                <!-- Campo email -->
                 <TextBlock Text="EMAIL" Foreground="White"
                            FontFamily="Arial Rounded MT Bold" Margin="0,10,0,5"/>
                 <Border Background="White" CornerRadius="15" Width="200" Height="30">
                     <TextBox x:Name="UsuarioTextBox" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center" Padding="10,0"/>
                 </Border>
 
+                <!-- Campo contraseña -->
                 <TextBlock Text="PASSWORD" Foreground="White"
                            FontFamily="Arial Rounded MT Bold" Margin="0,10,0,5"/>
                 <Border Background="White" CornerRadius="15" Width="200" Height="30">
                     <PasswordBox x:Name="PasswordBox" Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center" Padding="10,0"/>
                 </Border>
 
+                <!-- Boton continuar -->
                 <Button Content="CONTINUE" Width="200" Height="40"
                         Background="#FFEC1969" Foreground="White"
                         FontFamily="Arial Rounded MT Bold"
@@ -46,7 +49,7 @@
                     </Button.Template>
                 </Button>
 
-                <!-- Aquí está el texto "I don't have an account", que es un TextBlock clickeable -->
+                <!-- Redirigir a Register -->
                 <TextBlock Foreground="White" FontFamily="Arial Rounded MT Bold" HorizontalAlignment="Center" Margin="20,15,0,0" Cursor="Hand" MouseLeftButtonDown="IDontHaveAccount_Click">
                     <Run Text="I don't have an account.     "/>
                 </TextBlock>

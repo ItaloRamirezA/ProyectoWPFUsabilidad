@@ -16,6 +16,7 @@
 
             <Image Source="Imagenes/Error/error.png" Grid.Column="0" Margin="0,-143,430,0" Grid.ColumnSpan="2" />
 
+            <!-- Informacion del error -->
             <StackPanel Grid.Column="1" HorizontalAlignment="Left" Margin="409,44,0,45">
                 <TextBlock HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" Foreground="HotPink"
                            Margin="0,0,0,10">ERROR 404</TextBlock>

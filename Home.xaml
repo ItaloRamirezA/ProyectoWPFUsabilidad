@@ -17,8 +17,16 @@
                     Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
                 <Button Content="Cart" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
                     Foreground="White" BorderBrush="Transparent" Margin="5" Click="AbrirVentanaError" Cursor="Hand"/>
+                <!-- Búsqueda -->
+                <DockPanel DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="10,0,10,0">
+                    <TextBox x:Name="campoBusqueda" Width="200" Height="30" VerticalAlignment="Center"
+                             Margin="0,0,10,0" Text="Search..." VerticalContentAlignment="Center" Padding="5"/>
+                    <Button Content="🔍" Width="40" Height="30" Background="White" Foreground="Black" 
+                        FontSize="16" Click="AbrirVentanaError" Cursor="Hand"/>
+                </DockPanel>
             </StackPanel>
             
+
             <Button Content="Cerrar Sesión" FontSize="16" FontFamily="Arial Rounded MT Bold" Background="Transparent" 
                     Foreground="White" BorderBrush="Transparent" Margin="5" HorizontalAlignment="Right"
                     Width="120" Height="40" Click="CerrarSesion_Click" Cursor="Hand">

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media.Imaging;
+using System.Windows.Media;
 
 namespace ProyectoWPF
 {
@@ -16,7 +19,7 @@ namespace ProyectoWPF
             string usuario = UsuarioTextBox.Text.Trim();
             string contrasena = PasswordBox.Password.Trim();
 
-            if (usuario == "" || contrasena == "")
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena))
             {
                 MessageBox.Show("Por favor, completa todos los campos.");
                 return;
@@ -37,7 +40,60 @@ namespace ProyectoWPF
 
                 if (resultado == 1)
                 {
-                    MessageBox.Show("Inicio de sesión exitoso.");
+                    Window ventanaBienvenida = new Window
+                    {
+                        Title = "¡Bienvenido!",
+                        Width = 400,
+                        Height = 300,
+                        ResizeMode = ResizeMode.NoResize,
+                        WindowStartupLocation = WindowStartupLocation.CenterScreen,
+                        Background = Brushes.White
+                    };
+
+                    StackPanel stackPanel = new StackPanel
+                    {
+                        HorizontalAlignment = HorizontalAlignment.Center,
+                        VerticalAlignment = VerticalAlignment.Center,
+                        Margin = new Thickness(10)
+                    };
+
+                    TextBlock textoBienvenida = new TextBlock
+                    {
+                        Text = "¡Bienvenido!",
+                        FontSize = 24,
+                        FontWeight = FontWeights.Bold,
+                        Foreground = new SolidColorBrush(Color.FromRgb(107, 108, 195)),
+                        TextAlignment = TextAlignment.Center,
+                        Margin = new Thickness(10)
+                    };
+
+                    Image imagenBienvenida = new Image
+                    {
+                        Source = new BitmapImage(new Uri("pack://application:,,,/Imagenes/Comun/bienvenido.png")),
+                        Width = 150,
+                        Height = 150,
+                        Margin = new Thickness(10)
+                    };
+
+                    Button botonCerrar = new Button
+                    {
+                        Content = "Aceptar",
+                        Width = 100,
+                        Height = 30,
+                        HorizontalAlignment = HorizontalAlignment.Center,
+                        Margin = new Thickness(10)
+                    };
+
+                    botonCerrar.Click += (s, ev) => { ventanaBienvenida.Close(); };
+
+                    stackPanel.Children.Add(textoBienvenida);
+                    stackPanel.Children.Add(imagenBienvenida);
+                    stackPanel.Children.Add(botonCerrar);
+
+                    ventanaBienvenida.Content = stackPanel;
+
+                    ventanaBienvenida.ShowDialog();
+
                     Home ventanaHome = new Home();
                     ventanaHome.Show();
                     this.Close();
@@ -47,9 +103,9 @@ namespace ProyectoWPF
                     MessageBox.Show("Usuario o contraseña incorrectos.");
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("No se pudo conectar con la base de datos.");
+                MessageBox.Show("No se pudo conectar con la base de datos. Error: " + ex.Message);
             }
             finally
             {
@@ -57,7 +113,7 @@ namespace ProyectoWPF
             }
         }
 
-        private void IDontHaveAccount_Click(object sender, RoutedEventArgs e)
+        private void NoTengoCuenta(object sender, RoutedEventArgs e)
         {
             Register ventanaRegister = new Register();
             ventanaRegister.Show();

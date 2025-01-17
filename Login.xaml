@@ -50,7 +50,8 @@
                 </Button>
 
                 <!-- Redirigir a Register -->
-                <TextBlock Foreground="White" FontFamily="Arial Rounded MT Bold" HorizontalAlignment="Center" Margin="20,15,0,0" Cursor="Hand" MouseLeftButtonDown="IDontHaveAccount_Click">
+                <TextBlock Foreground="White" FontFamily="Arial Rounded MT Bold" HorizontalAlignment="Center"
+                           Margin="20,15,0,0" Cursor="Hand" MouseLeftButtonDown="NoTengoCuenta">
                     <Run Text="I don't have an account.     "/>
                 </TextBlock>
 
